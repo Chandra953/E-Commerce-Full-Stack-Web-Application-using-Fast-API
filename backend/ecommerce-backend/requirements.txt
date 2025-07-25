@@ -1,0 +1,11 @@
+FastAPI
+uvicorn
+sqlalchemy
+pydantic
+bcrypt
+python-jose
+alembic
+fastapi-jwt-auth
+passlib
+pydantic_settings
+python-multipart

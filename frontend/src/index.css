@@ -1,0 +1,48 @@
+/* Custom styling on top of Bootstrap */
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  /* Wavy SVG pattern for a more dynamic texture */
+  background-image: url('https://img.freepik.com/free-photo/computer-mouse-paper-bags-blue-background-top-view_169016-43523.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-bg {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  background-image: url('data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="60" fill="%23f8fafc"/><path d="M0 30 Q15 40 30 30 T60 30" stroke="%23c7d2fe" stroke-width="1.5" fill="none"/><path d="M0 45 Q15 55 30 45 T60 45" stroke="%23c7d2fe" stroke-width="1.5" fill="none"/><path d="M0 15 Q15 25 30 15 T60 15" stroke="%23c7d2fe" stroke-width="1.5" fill="none"/></svg>');
+}
+
+/* Custom button styling */
+.btn-custom {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+  transform: translateY(-1px);
+}
+
+/* Custom card styling */
+.card {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar styles */
+.navbar-custom {
+  /* background: linear-gradient(to right, #6f42c1, #6610f2); */
+      background: linear-gradient(to right, #24163f, #5ca1b1);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
